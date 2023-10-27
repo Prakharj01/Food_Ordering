@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(images/donate.jpg);
+
+  background-size: cover;
+  height: 100vh;
+  background-color: grey;
+}
+.container-info {
+  background-color: #171010;
+  text-align: center;
+  padding: 2em;
+  opacity: 0.8;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+h2 {
+  margin: 1em;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+.container-info h1 {
+  margin: 1em;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 2rem;
+}
+span {
+  color: yellow;
+}
